@@ -1,0 +1,276 @@
+body
+{
+    background: #0380fc;
+}
+
+
+footer
+{
+  background-color: #121c74;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 12px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+}
+
+img
+{
+    width: 900px;
+    height: 268px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p
+{
+    margin: 10px;
+    padding:10px;  
+    background-color: #0380fc;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20;
+    padding-right: 8ex;
+}
+
+h2
+{
+  margin: 10px;
+  padding:10px;  
+  background-color: #0380fc;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22;
+  padding-right: 8ex;
+}
+
+p2
+{ 
+  background-color: #0380fc;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #121c74;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li 
+{
+  float: left;
+}
+
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover 
+{
+  background-color: #111;
+}
+
+h1
+{
+  margin: 7px;
+  margin-left: 28px;
+  margin-bottom: 1px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30;
+  color: white;
+}
+
+
+/*text (1/2) & Caption*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: left;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* the next arrow button format and position*/
+.next {
+  right: 80;
+  border-radius: 3px;
+  color: #000;
+}
+
+/* the back arrow button format and position*/
+.prev {
+  left: 80;
+  border-radius: 3px;
+  color: #000;
+}
+
+/* when hovering the background changes colour to slightly see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.zoom 
+{
+  transition: transform 0.5s;
+  width: 55%;
+}
+
+.zoom:hover 
+{
+  transform: scale(1.5); 
+}
+
+img
+{
+	border-width: 10px;
+
+	border-radius: 20%;
+}
+
+* 
+{
+	box-sizing: border-box;
+}
+  
+  .column 
+  {
+	float: left;
+	width: 33%;
+	padding: 5px;
+  }
+  
+ 
+  .row::after 
+  {
+	content: "";
+	clear: both;
+	display: table;
+  }
+   /* Clearfix (clear floats) */
+
+  .myparag
+  {
+	  color: white;
+	  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	  font-size: 17px;
+	  margin: 8px;
+  }
+
+  figcaption
+  {
+	  color: white;
+	  font-size: 24px;
+	  text-align: center;
+	  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  h4
+  {
+	color: white;
+	font-size: 20px;
+	margin: 8px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-decoration-line: underline;
+  }
+
+  /* changes made when using on tabs: */
+  @media screen and (min-width: 500px)
+  {
+    body
+    {
+      background: #121c74;
+    }
+  
+    p
+    {
+      font-size: 12px;
+      background: #121c74;
+    }
+  
+    ul
+    {
+      background-color: #0380fc;
+      font-size: 12px;
+    }
+  
+    footer
+    {
+      background-color: #0380fc;
+    }
+  
+    img
+    {
+      width: 450px;
+      height: 134px;
+    }
+  
+  
+    
+  }
+  
+  /* monitor screen size */
+  @media screen and (min-width: 1000px)
+  {
+    body
+    {
+      background:#0380fc;
+    }
+  
+    p
+    {
+      font-size: 17px;
+      background:#0380fc;
+    }
+  
+    ul
+    {
+      background-color: #121c74;
+      font-size: 16px;
+    }
+
+    img
+    {
+      width: 900px;
+      height: 268px;
+    }
+  
+    footer
+    {
+      background-color: #121c74;
+    }
+  
+  }
